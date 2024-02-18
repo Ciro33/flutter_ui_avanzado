@@ -60,6 +60,9 @@ flutter:
   assets:
     - assets/pages/login/manPalette.svg
     - assets/pages/login/woman.svg
+    - assets/pages/login/google.png
+    - assets/pages/login/google.svg
+    - assets/pages/login/facebook.png
     - assets/pages/login/icons/at-solid.svg
     - assets/pages/login/icons/key-solid.svg
 

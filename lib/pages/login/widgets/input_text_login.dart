@@ -32,23 +32,23 @@ class InputTextLogin extends StatelessWidget{
           borderSide: BorderSide(
             width: 20,
             style: BorderStyle.solid,
-            color: third,
+            color: primary,
           ),
           
         ),
         
         focusedBorder: OutlineInputBorder(
-          borderSide: BorderSide(color: third),
+          borderSide: BorderSide(color: primary),
           borderRadius:  const BorderRadius.all(Radius.circular(40)),
         ),
 
         enabledBorder: OutlineInputBorder(
-          borderSide: BorderSide(color: third),
+          borderSide: BorderSide(color: primary),
           borderRadius:  const BorderRadius.all(Radius.circular(40)),
         ),
         
         disabledBorder: OutlineInputBorder(
-          borderSide: BorderSide(color: primary),
+          borderSide: BorderSide(color: third),
           borderRadius:  const BorderRadius.all(Radius.circular(40)),
         ),
 
@@ -62,8 +62,9 @@ class InputTextLogin extends StatelessWidget{
         labelText: labelString,
 
 
+        // ignore: prefer_const_constructors
         labelStyle: TextStyle(
-          color: fourthy,
+          color: Colors.white70,
           fontWeight:FontWeight.bold
         ),
 
@@ -71,7 +72,7 @@ class InputTextLogin extends StatelessWidget{
         prefixIconColor: white,
         filled: true,
         contentPadding: const EdgeInsets.all(16),
-        fillColor: third,
+        fillColor: primary,
         
       ),
       

@@ -16,7 +16,7 @@ class Welcome extends StatelessWidget {
       aspectRatio: 16 / 11,
       child: LayoutBuilder(builder: (_, constraints) {
           return Container(
-            color: third,
+            color: primary,
             child: Stack(
               children: <Widget>[
                 Positioned(     // Add 1 line and the text welcome back!
