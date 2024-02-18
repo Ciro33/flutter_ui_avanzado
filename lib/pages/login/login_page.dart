@@ -2,7 +2,6 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:flutter_ui_avanzado/pages/login/widgets/button.dart';
 import 'package:flutter_ui_avanzado/pages/login/widgets/input_text_login.dart';
 import 'package:flutter_ui_avanzado/pages/login/widgets/welcome.dart';
